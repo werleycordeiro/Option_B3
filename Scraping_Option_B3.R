@@ -147,7 +147,7 @@ for(i in 1:length(datas)){
 	#head(final_2)
 	#tail(final_2)
 	#
-
+	# final_2[final_2[,1]=="PETRB381",] # Selecionar ticker específico
 	file.remove(list.files())
 
 	setwd(...)
